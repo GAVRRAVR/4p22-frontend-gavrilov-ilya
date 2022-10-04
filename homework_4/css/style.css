@@ -1,12 +1,17 @@
-html, body, main {
+html, body {
     height: 100%;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
 }
 
 .card-section {
     display: flex;
     flex-wrap: wrap;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: flex-start;
     height: 100%;
 }
 
@@ -109,11 +114,12 @@ html, body, main {
 .bg-footer {
     margin-top: 40px;
     border-top: 1px solid;
-    
+    background-color: #312e2e;
 }
+    
 
 .center-footer {
-        padding: 30px;
+        padding: 0 30px;
         color: #000000;
         font-family: 'Montserrat', sans-serif;
         font-size: 22px;
